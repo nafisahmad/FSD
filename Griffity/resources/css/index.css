@@ -1,0 +1,44 @@
+.banner{
+    background-color: #4D00FF;
+    color: white;
+    margin-top: 75px;
+    text-align: center;
+    padding: 100px 0; 
+}
+
+#pic{
+    height: 120px;
+    width: 180px;
+}
+
+#gritter{
+    color: #4D00FF;
+    font-size: 100px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.navi {
+    color: blueviolet;
+    padding: 10px;
+    text-align: left;
+  }
+
+
+  .lor {
+      text-decoration-color: bisque;
+      margin: 20px;
+      size: 20in;
+      text-align: justify;
+      text-decoration: beige;
+      text-size-adjust: 20%;
+      padding: 60px;
+      background-color: blueviolet;
+      color:yellow;
+      border: 5px solid turquoise;
+      }
+
+      

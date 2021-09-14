@@ -1,0 +1,23 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.one{
+    height: 700px;
+    width: 100%;
+    background-color: tomato;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.one_child{
+    height: 200px;
+    width: 200px;
+    background-color: wheat;
+} */
+
+
+/* Position -------------------*/

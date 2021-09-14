@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Over</title>
+    <!-- <link rel="stylesheet" href="c2.css"> -->
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            padding-top: 200px;
+        }
+    </style>
+</head>
+
+<body id="bg">
+    <div id="content">
+        <h1 id="text">Hover over!</h1>
+    </div>
+    <script>
+        document.getElementById('content').addEventListener('mouseenter', addImage);
+        document.getElementById('content').addEventListener('mouseleave', changeImage);
+
+        function addImage() {
+            document.getElementById("content").innerHTML = '<img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/_tony_card_2.jpg">';
+        }
+
+        function changeImage() {
+            document.getElementById("content").innerHTML = '<img src="https://bgr.com/wp-content/uploads/2021/08/what-if-iron-man.jpg?quality=70&strip=all&w=720&h=405&crop=1">';
+        }
+    </script>
+</body>
+
+</html>

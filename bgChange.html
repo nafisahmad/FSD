@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Background-Change</title>
+</head>
+
+<body id="bgc">
+    <script>
+        document.addEventListener('keypress', changeColor);
+
+        function changeColor(e) {
+            switch (e.key) {
+                case 'b': {
+                    document.getElementById('bgc').innerHTML = '';
+                    document.getElementById('bgc').style.backgroundColor = 'blue';
+                    break;
+                }
+                case 'r': {
+                    document.getElementById('bgc').innerHTML = '';
+                    document.getElementById('bgc').style.backgroundColor = 'red';
+                    break;
+                }
+                case 'g': {
+                    document.getElementById('bgc').innerHTML = '';
+                    document.getElementById('bgc').style.backgroundColor = 'green';
+                    break;
+                }
+                case 'p': {
+                    document.getElementById('bgc').innerHTML = '';
+                    document.getElementById('bgc').style.backgroundColor = 'pink';
+                    break;
+                }
+                default: {
+                    document.getElementById('bgc').style.backgroundColor = 'white';
+                    document.getElementById('bgc').innerHTML = '<h1 style="display: flex; justify-content: center; padding-top: 100px;">Press a valid key</h1>';
+                    break;
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
