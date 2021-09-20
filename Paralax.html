@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website</title>
+    <link rel="stylesheet" href="./Paralax.css">
+</head>
+
+<body>
+    <section>
+        <h2>Simple Parallax Effect website </h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, repellendus architecto. Quidem eaque neque
+            reprehenderit laborum fugit praesentium consectetur iste. Quibusdam voluptatibus laudantium in eligendi iste
+            consequatur enim culpa, dolore atque facilis fugit! Minus ipsum ipsam tempora deserunt aliquam, temporibus
+            distinctio omnis aspernatur voluptate quis fugit cum odio quod est facilis atque exercitationem saepe quae,
+            architecto laudantium unde sunt. Minima, quod labore delectus aut unde, obcaecati numquam rerum aliquid
+            suscipit, possimus sapiente laudantium veritatis commodi quisquam officia? Vel omnis aspernatur beatae enim,
+            nostrum doloremque possimus quod, iste autem excepturi dolor.
+        </p>
+    </section>
+    <div class="paralaxBg">
+        <img src="https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="falls" class="falls">
+        <h2>Left</h2>
+    </div>
+
+    <section>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, repellendus architecto. Quidem eaque neque
+            reprehenderit laborum fugit praesentium consectetur iste. Quibusdam voluptatibus laudantium in eligendi iste
+            consequatur enim culpa, dolore atque facilis fugit! Minus ipsum ipsam tempora deserunt aliquam, temporibus
+            distinctio omnis aspernatur voluptate quis fugit cum odio quod est facilis atque exercitationem saepe quae,
+            architecto laudantium unde sunt. Minima, quod labore delectus aut unde, obcaecati numquam rerum aliquid
+            suscipit, possimus sapiente laudantium veritatis commodi quisquam officia? Vel omnis aspernatur beatae enim,
+            nostrum doloremque possimus quod, iste autem excepturi dolor.
+        </p>
+    </section>
+    <div class="paralaxBg">
+        <img src="https://images.pexels.com/photos/4072840/pexels-photo-4072840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="Terrain" class="terrain">
+        <h2>RIght</h2>
+    </div>
+
+    <section>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, repellendus architecto. Quidem eaque neque
+            reprehenderit laborum fugit praesentium consectetur iste. Quibusdam voluptatibus laudantium in eligendi iste
+            consequatur enim culpa, dolore atque facilis fugit! Minus ipsum ipsam tempora deserunt aliquam, temporibus
+            distinctio omnis aspernatur voluptate quis fugit cum odio quod est facilis atque exercitationem saepe quae,
+            architecto laudantium unde sunt. Minima, quod labore delectus aut unde, obcaecati numquam rerum aliquid
+            suscipit, possimus sapiente laudantium veritatis commodi quisquam officia? Vel omnis aspernatur beatae enim,
+            nostrum doloremque possimus quod, iste autem excepturi dolor.
+        </p>
+    </section>
+    <div class="paralaxBg">
+        <img src="https://images.pexels.com/photos/2387418/pexels-photo-2387418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="water" class="water">
+        <h2>Top</h2>
+    </div>
+
+    <section>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, repellendus architecto. Quidem eaque neque
+            reprehenderit laborum fugit praesentium consectetur iste. Quibusdam voluptatibus laudantium in eligendi iste
+            consequatur enim culpa, dolore atque facilis fugit! Minus ipsum ipsam tempora deserunt aliquam, temporibus
+            distinctio omnis aspernatur voluptate quis fugit cum odio quod est facilis atque exercitationem saepe quae,
+            architecto laudantium unde sunt. Minima, quod labore delectus aut unde, obcaecati numquam rerum aliquid
+            suscipit, possimus sapiente laudantium veritatis commodi quisquam officia? Vel omnis aspernatur beatae enim,
+            nostrum doloremque possimus quod, iste autem excepturi dolor.
+        </p>
+    </section>
+    <div class="paralaxBg">
+        <img src="https://images.pexels.com/photos/1438761/pexels-photo-1438761.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="fog" class="fog">
+        <h2>Down</h2>
+    </div>
+
+    <section>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste reiciendis omnis blanditiis quisquam vitae
+            harum dolor eum vel? Harum assumenda voluptatum explicabo sed repellendus necessitatibus maiores vero
+            eveniet culpa numquam, soluta quasi iusto repudiandae ratione mollitia inventore corporis fuga perferendis
+            fugit suscipit quod tempora odio! Earum beatae molestiae natus minus, architecto adipisci repellat aliquam
+            porro laboriosam ducimus vitae consequatur ipsum deserunt animi laborum dignissimos? Autem fuga iste amet
+            reprehenderit aspernatur natus dolorem repudiandae qui itaque incidunt molestiae laborum quas delectus quo
+            molestias minus magnam esse cum facere distinctio temporibus, neque architecto. Minus eligendi tempora
+            molestias quis omnis, vero necessitatibus!
+        </p>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+
+    <script>
+        var image1 = document.getElementsByClassName('falls');
+        var image2 = document.getElementsByClassName('terrain');
+        var image3 = document.getElementsByClassName('water');
+        var image4 = document.getElementsByClassName('fog');
+
+        new simpleParallax(image1, {
+            orientation: 'left'
+        });
+
+        new simpleParallax(image2, {
+            orientation: 'right'
+        });
+        new simpleParallax(image3, {
+            orientation: 'up'
+        });
+        new simpleParallax(image4, {
+            orientation: 'down'
+        });
+    </script>
+</body>
+
+</html>
