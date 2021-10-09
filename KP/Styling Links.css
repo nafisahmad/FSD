@@ -1,0 +1,63 @@
+body{
+    background-color:cornsilk;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: green;
+}
+
+h1{
+    font-size: 70px;
+    color: blue;
+    margin-bottom: 0;
+}
+
+h2{
+    margin-top: 0;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    /* *font size */
+    line-height: 2;
+
+    font-style: italic;
+    font-weight: lighter;
+
+    text-align:justify;
+    color: red;
+}
+
+.bolder{
+    font-weight: bolder;
+    text-decoration: line-through;
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    text-transform: capitalize; 
+    /* text-transform: uppercase; */
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/* change color of link */
+a{
+    color: brown;
+    text-decoration: none;
+}
+
+/* change color on hoverr */
+a:hover{
+    color: cadetblue;
+}
+/* visited link */
+a:visited{
+    color: black;
+}
+/* while clicking */
+a:active{
+    color: deeppink;
+}
+

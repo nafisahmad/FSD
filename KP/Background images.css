@@ -1,0 +1,21 @@
+body{
+    background-color:bisque ;
+}
+
+h1{
+    color: brown;
+}
+
+.boxx{
+    margin: 50px;
+    padding: 300px;
+    background-color: pink;
+    background-image: url(https://www.apa.org/images/2020-03-feature-giraffe_tcm7-269465.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.ani{
+    position: relative;
+    align-content: flex-end;
+}

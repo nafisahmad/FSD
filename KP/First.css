@@ -1,0 +1,31 @@
+body{
+    background-color:plum;
+    color: white;
+    font-size: 21px;
+}
+
+p{
+    color:grey;
+}
+
+h1{
+    font-size: 70px;
+    color: wheat;
+}
+
+span{
+    color: seagreen;
+    font-size: 24px;
+    background-color: seashell;
+    font-weight: bold;
+}
+
+.intro{
+    font-size: 51px;
+    color: indianred;
+}
+
+.highlight{
+    color:indigo;
+    background-color: lawngreen;
+}

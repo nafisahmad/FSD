@@ -1,0 +1,15 @@
+body{
+    background-color: lavender;
+    color: goldenrod;
+    font-size: 21px;
+}
+
+p{
+    color: green;
+}
+
+h1{
+    font-size: 75px;
+    color: hotpink;
+    font-style: italic;
+}
