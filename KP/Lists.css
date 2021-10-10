@@ -1,0 +1,45 @@
+body{
+    background-color: turquoise;
+    text-align: center;
+}
+
+h1{
+    padding-bottom: 0;
+    font-size: 71px;
+    color: violet;
+    margin-bottom: 0;
+}
+
+h2{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+ol{
+    list-style-type:lower-greek;
+    list-style-position: inside; 
+    /* <!-- to take the list numbers inside next to the list--> */
+}
+
+ul{
+    list-style-type: circle;
+    /* list-style-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBZpcyDxOoQOBWyK6-Odo-txjyllaBpbBVniZqw9x9tHvoMtbShvKp1AClOs8m2_Zxaq8&usqp=CAU"); */
+    background-color: #fff;
+    padding: 50px;
+}
+
+ul li{
+    background: red;
+    margin-bottom: 15px;
+}
+
+ol{
+    background: lightblue;
+    padding: 50px;
+}
+
+ol li {
+    background: blue;
+    color: white;
+    margin-bottom: 10px;
+}

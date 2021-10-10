@@ -1,0 +1,73 @@
+*{
+    padding: 20px;
+    margin: 20px;
+}
+body{
+    background-color:thistle;
+}
+
+h1{
+    color: white;
+    font-size: 71px;
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+p{
+    color: whitesmoke;
+    text-align: justify;
+}
+
+img{
+    float: left;
+    /* margin-right: 20px;
+    margin-bottom: 20px; */
+    /* margin: 20px; */
+}
+
+.red-box{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+
+    float: left;
+}
+
+.blue-box{
+    height: 500px;
+    width: 500px;
+    background-color:blue;
+    float: right;
+}
+
+.orange-box{
+    width: 500px;
+    background-color: orange;
+    float: left;
+}
+.purple{
+    width: 500px;
+    background-color: purple;
+    float: right;
+    color: whitesmoke;
+}
+
+/* clear: both forces to a new line */
+.green-box{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    float: left;
+}
+.cyan-box{
+    clear: both;
+    height: 500px;
+    width: 500px;
+    background-color: cyan;
+    float: right;
+ 
+}
+
