@@ -1,0 +1,53 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    font-size: 71px;
+    color: hotpink;
+    margin-bottom: 0;
+}
+h2{
+    margin-top: 0;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.box1{
+    background-color: pink;
+}
+
+.box2{
+    background-color: #FF0000; 
+    /* #RRGGBB 0 --> F */
+}
+.box3{
+    background-color: firebrick;
+}
+
+.box4{
+    background-color: orange;
+}
+.box5{
+    background-color: yellow;
+    /* clear: both */
+}
+.box6{
+    background-color: lime;
+}
+.box7{
+    background-color: green;
+}
+.box8{
+    background-color: rgba(201, 201, 73, 0.15);
+    /* a for controlling opacity */
+}
+.box9{
+    /* background-color: hsl(hue, saturation, lightness); */
+    background-color: hsl(360,100%,50%);
+
+}

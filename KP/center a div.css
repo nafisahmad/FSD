@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+}
+h1{
+    font-size: 71px;
+    margin-bottom: 0;
+    color: chocolate;
+}
+h2{
+    margin-top: 0;
+}
+
+.container{
+    background: cornsilk;
+    /* width: 600px; */
+    width: 70%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+    min-width: 1000px;
+}
+
