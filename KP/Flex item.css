@@ -1,0 +1,44 @@
+.container{
+    background: pink;
+    height: 25vh;
+    width: 50vw;
+    padding: 0.5em;
+    margin: 25vh auto 0;
+
+    display: flex;
+    flex-direction: row;
+} 
+
+.item{
+    background: lightblue;
+    margin: 0.5em;
+}
+
+.one{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 250px;
+
+    order: 2;
+}
+
+.two{
+    /* flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 250px; */
+/* same thing */
+    flex: 0 1 250px;
+    align-self: flex-end;
+    /* aligning item */
+
+    order: 3;
+}
+
+.three{
+    flex-grow: 3;
+    flex-shrink: 3;
+    /* shirnk and grow faster than others after 250px */
+    flex-basis: 250px;
+
+    order: 1;
+}

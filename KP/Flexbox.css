@@ -1,0 +1,42 @@
+.container{
+    background: pink;
+    height: 50vh;
+    width: 50vw;
+    padding: 0.5em;
+    margin: 25vh auto 0;
+
+    display: flex;
+
+        /* flex-direction: row; */
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column; */
+
+        /* flex-wrap: nowrap;  */
+    /* <!-- nowrap will fit every column in the box --> */
+
+        /* flex-wrap: wrap; */
+    /* wrap will stack on top of one another */
+
+    flex-flow: row wrap;
+    /* same thing as flex direction and wrap */
+
+        /* justify-content: flex-end; */
+        /* justify-content: center; */ 
+        /* justify-content: space-between; */
+        /* justify-content: space-around;  */
+    /* equal margins. */
+    justify-content: flex-start;
+    /* align-items: baseline; */
+    /* align-items: flex-start; */
+    /* align-items: stretch; */
+
+    align-content: space-around;
+
+}
+
+.item{
+    background: lightblue;
+    margin: 0.5em;
+
+    /* width: 25%; */
+}
