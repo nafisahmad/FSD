@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="./Halloween.css" />
+    <title>Halloween Page</title>
+  </head>
+
+  <body>
+    <section>
+      <img src="./bg.jpg" id="bg" />
+      <img src="./bats.png" id="bats" />
+      <img src="./castle.png" id="castle" />
+      <img src="./img.png" id="img" />
+      <img src="./wolf.png" id="wolf" />
+    </section>
+    
+    <div class="sec">
+      <div class="content">
+        <h2>Happy Halloween</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia fuga
+          adipisci sit dicta necessitatibus! At soluta facere iure similique
+          quae ab iste eligendi facilis labore, ipsum iusto excepturi repellat
+          nemo animi voluptatibus exercitationem eos sint maxime dolorum cumque
+          ducimus velit. Quibusdam, doloremque? Ipsa eos earum architecto
+          dolorum? Dignissimos sed illum consectetur distinctio id rem facere
+          minima, magnam molestiae dolorum deserunt est voluptate excepturi ipsa
+          impedit, corporis, adipisci nihil laborum odio molestias porro
+          explicabo quia vero! Minus voluptas voluptates, fugit libero non dicta
+          vero quisquam sit modi laboriosam, porro neque eius suscipit sapiente,
+          quam deleniti reiciendis ad. Excepturi sapiente doloremque suscipit
+          placeat omnis, quasi nulla doloribus consectetur qui, corrupti alias
+          ad blanditiis cum dolorum perferendis numquam unde nam. Blanditiis
+          magni voluptatibus corporis aliquid ab inventore magnam consequatur,
+          at aut. Odio ipsum, ullam odit tenetur aut neque cupiditate. Fugiat
+          quasi cum, sequi possimus qui doloremque expedita excepturi fugit
+          nihil accusantium architecto eum. Lorem ipsum, dolor sit amet
+          consectetur adipisicing elit. Pariatur reprehenderit quisquam odit
+          cumque, corporis blanditiis molestiae labore, eius vero aperiam ad
+          odio dignissimos consequuntur facilis quia! Voluptas sint beatae
+          nesciunt laborum, fugit nobis accusamus. Suscipit obcaecati quisquam
+          corrupti neque alias officiis ratione debitis architecto fuga
+          laudantium? Aliquid, veritatis ut accusamus cupiditate voluptate ipsum
+          totam neque perspiciatis minima, magni quaerat quae molestiae
+          repudiandae. Vero veritatis eaque pariatur itaque odio eos praesentium
+          sapiente eum architecto nisi id repudiandae ratione debitis,
+          voluptatem minima excepturi mollitia, velit perspiciatis soluta.
+          Similique eos quis id consequuntur? Nesciunt, vero maiores nobis porro
+          consequatur ad voluptates culpa ducimus.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos at voluptatem quos nisi dolor ratione, vitae ex? Temporibus voluptates dolore reprehenderit inventore nulla libero, voluptatibus dignissimos voluptatem ratione, possimus et assumenda voluptate minus officia architecto! Laborum dignissimos obcaecati vero cum, magni eos voluptatibus quisquam animi et repellendus ab? Est iste nesciunt fuga. Ipsa inventore facere soluta debitis dolor, magnam ipsam aperiam ratione ea minus dignissimos praesentium iste minima id facilis explicabo blanditiis illum est cumque rem dolores omnis commodi! Eum hic quae cumque suscipit similique a quis adipisci odio tempora molestiae accusamus facilis dolorum nobis saepe veniam temporibus corrupti sunt asperiores, reiciendis repellat libero. Nesciunt sit est consectetur reiciendis! Ullam, eligendi. Veritatis deleniti sapiente quisquam, quae molestias unde autem iure inventore natus sed minima itaque? Adipisci esse dolores suscipit, ratione sint nisi aliquid nemo sequi. Maiores placeat repellat quos perferendis magnam, autem iste magni. Quo quis saepe cumque iusto. Doloribus?
+        </p>
+        <h3> Nafis </h3>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.js"></script>
+
+    <script>
+      gsap.to("#img", {
+        scrollTrigger: {
+          scrub: 0.5,
+        },
+        x: 1500,
+        y: 500,
+      })
+
+      gsap.from("#wolf", {
+        scrollTrigger: {
+          scrub: 0.5,
+        },
+        x: 400,
+      })
+
+      gsap.from("#castle", {
+        scrollTrigger: {
+          scrub: 0.5,
+        },
+        x: -100,
+      })
+
+      gsap.from("#bats", {
+        scrollTrigger: {
+          scrub: 0.5,
+        },
+        scale: 1.5,
+      })
+    </script>
+  </body>
+</html>
