@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0px;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      h1 {
+        font-size: larger;
+      }
+      img {
+        width: min-content;
+        padding: 30px;
+      }
+
+      div {
+        background-color: rgb(216, 235, 182);
+      }
+      .img-p {
+        display: flex;
+        flex: 0 1 250px;
+        align-self: flex-end;
+      }
+      .container {
+        font-size: 21px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 20px 20px;
+      }
+      #sum {
+        margin: auto;
+        padding: 30px;
+        text-align: justify;
+      }
+      #title {
+        font-size: 26px;
+        font-weight: 1000;
+      }
+    </style>
+    <title>Movie-results</title>
+  </head>
+  <body>
+    <h1>Results for : <%= searchQuery %></h1>
+    <% let movies=data['results']; %> <% data['results'].forEach((movie)=> {%>
+
+    <div class="container">
+      <p id="title">Movie title: <%= movie['original_title'] %></p>
+      <div class="img-p">
+        <img
+          id="img"
+          src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2<%= movie['poster_path'] %>"
+          alt="Poster"
+        />
+
+        <p id="sum">Summary: <%= movie['overview'] %></p>
+        <p id="nfs">Nafis Ahmad - ENG16CS0087</p>
+      </div>
+    </div>
+    <hr />
+    <% }) %>
+  </body>
+</html>
