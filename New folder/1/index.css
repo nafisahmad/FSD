@@ -1,0 +1,69 @@
+.margin{
+    margin: 1in;
+    padding-right: 45%;
+}
+
+.main{
+    color:rgb(90, 135, 11);
+}
+
+h2{
+    padding-top: 4%;
+}
+.para{
+    
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    }
+img.point {
+    float: left;
+
+    
+}
+li {
+    clear: both;
+    font-size: small;
+}
+
+#foot{
+    padding-top: 35px;
+}
+
+
+a {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+td {
+    padding-right: 0.25px;
+    font-size: medium;
+}
+td.classx {
+    text-align: left;
+}
+ span.clean {
+    background-color: black;
+    color: white;
+}
+span.span-2 {
+    text-decoration: underline;
+    color: blue;
+}
+span.span-3 {
+    color: green;
+}
+span.span-4 {
+    color: blue;
+}
+span.span-5 {
+    color: green;
+    font-size: small;
+}
+
+span.span-6 {
+    color: red;
+}

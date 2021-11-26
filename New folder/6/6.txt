@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calendar</title>
+    <style>
+      table {
+        display: inline-table;
+        background-color: #fff;
+        margin-right: 3em;
+        padding-top: 3em;
+      }
+
+      td.monthName {
+        background-color: #053742;
+        text-align: center;
+        font-style: normal;
+        font-size: larger;
+        /* font-weight: bolder; */
+        color: ghostwhite;
+        font-variant: small-caps;
+        padding: 5%;
+        margin-right: 5em;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+
+      td.weekDayName {
+        color: chocolate;
+        background-color: pink;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        text-align: center;
+        font-size: large;
+      }
+
+      td.dayNo {
+        font-family: "Courier New", Courier, monospace;
+        color: white;
+        background-color: #a2dbfa;
+        text-align: center;
+        font-size: medium;
+        padding: 1em;
+        margin: 1em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script>
+      var yr = prompt("Enter a year:", 2021);
+      fill_table("January ", 31);
+      if ((yr % 4 == 0 && yr % 100 != 0) || yr % 400 == 0) {
+        fill_table("February ", 29);
+      } else {
+        fill_table("February ", 28);
+      }
+      fill_table("March ", 31);
+      fill_table("April ", 30);
+      fill_table("May ", 31);
+      fill_table("June ", 30);
+      fill_table("July ", 31);
+      fill_table("August ", 31);
+      fill_table("September ", 30);
+      fill_table("October ", 31);
+      fill_table("November ", 30);
+      fill_table("December ", 31);
+      function fill_table(month, len) {
+        document.write("<table bgcolor=aqua cellspacing=3 cellpadding=3>");
+        document.write(
+          "<tr><td class=monthName colspan=7><em>" +
+            month +
+            "" +
+            yr +
+            "</em></td></tr>"
+        );
+        day_title();
+        var ob = new Date("1" + month + yr);
+        var startDay = ob.getDay();
+        document.write("<tr>");
+        for (i = 0; i < startDay; i++) {
+          document.write("<td class=dayNo></td>");
+        }
+        var day = 1;
+        for (i = startDay; i <= 6; i++) {
+          document.write("<td class=dayNo>" + day + "</td>");
+          day++;
+        }
+        document.write("</tr>");
+        while (day <= len) {
+          document.write("<tr>");
+          for (i = 0; i <= 6 && day <= len; i++) {
+            document.write("<td class=dayNo>" + day + "</td>");
+            day++;
+          }
+          document.write("</tr>");
+        }
+        document.write("</table>");
+      }
+      function day_title(day) {
+        document.write("<tr>");
+        document.write("<td class=weekDayName>" + "Sun" + "</td>");
+        document.write("<td class=weekDayName>" + "Mon" + "</td>");
+        document.write("<td class=weekDayName>" + "Tues" + "</td>");
+        document.write("<td class=weekDayName>" + "Wed" + "</td>");
+        document.write("<td class=weekDayName>" + "Thurs" + "</td>");
+        document.write("<td class=weekDayName>" + "Fri" + "</td>");
+        document.write("<td class=weekDayName>" + "Sat" + "</td>");
+        document.write("</tr>");
+      }
+    </script>
+  </body>
+</html>

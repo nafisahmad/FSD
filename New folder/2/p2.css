@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+    color: blue;
+    }
+h3 {
+    text-decoration: underline;
+    text-decoration-color:blueviolet;
+    font-weight: bold;
+    color:blueviolet;
+    }
+body {
+    background-color: plum;
+    }
+a {
+    text-decoration: none;
+    }
+a:hover {
+    background-color:white;
+    }
+a:visited {
+    color: purple;
+    }
+a:link{
+    color: blue;
+    }
+a:active {
+    color:white;
+    }
+p.Left {
+    text-indent: 3em;
+    font-style: italic;
+    color: blue;
+    }
+p.Center {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    word-spacing: 1em;
+    letter-spacing: -0.12em;
+    }
+p.right {
+    text-decoration: overline;
+    text-align: right;
+    color:red;
+    font-variant: small-caps;
+    font-style: italic;
+    }
+    
+p.cursor-1 {
+    color: green;
+    cursor: crosshair;
+    }
+p.cursor-2 {
+    color: green;
+    cursor: pointer;
+    }
+p.cursor-3 {
+    color: green;
+    cursor: move;
+    }
+p.cursor-4 {
+    color: green;
+    cursor: text;
+    }
+p.cursor-5 {
+    color: green;
+    cursor: wait;
+    }
+p.cursor-6 {
+    color: green;
+    cursor: help;
+    }
