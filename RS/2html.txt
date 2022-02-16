@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./p2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>CSS(Inline,Internal and External)</h1>
+    <p>This Paragraph is Not Styled</p>
+    <p class="Left">This Paragraph is Styled by class "Left"</p>
+    <p class="Center">This Paragraph is styled by class "Center"</p>
+    <p class="right">This Paragraph Is Styled By Class "Right"</p>
+    <p>
+        <b>This is normal Bold</b>
+    <h3>This Bold Text is Styled</h3>
+    </p>
+    <p>
+        <a href="https://www.youtube.com/watch?v=bJaOhjO34Fc&ab_channel=SamNfs" target="_blank">This is a link</a>
+    </p>
+    <p class="cursor-1">The cursor over this element is a plus sign</p>
+    <p class="cursor-2">The cursor over this element is a pointing hand</p>
+    <p class="cursor-3">The cursor over this element is a grasping hand sign</p>
+    <p class="cursor-4">The cursor over this element is a I bar</p>
+    <p class="cursor-5">The cursor over this element is a wait sign</p>
+    <p class="cursor-6">The cursor over this element is a question mark sign</p>
+</body>
+
+</html>
